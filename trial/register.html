@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	 <meta name="viewport" content="widh-device-width">
+	  <meta name="description" content="Productivity in all aspects">
+	 <meta name="keywords" content="Productivity">
+	<meta name="author" content="TJ Munodawafa">
+	<title>Farm 704 | Register</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/normalise.css">
+</head>
+
+<body>
+      <header>
+      <div class="container">
+        <div id="branding">
+          <h1 class="name"><span>Farm</span> 704</h1>
+          
+        </div>
+        <nav>
+          <ul class="main-nav">
+               <li><a href="login.html">Login</a></li>
+               <li class="current"><a href="register.html">Register</a></li>
+               <li><a href="forgot.html">Forgot Password</a></li>
+                  
+            </ul>
+         </nav><br>
+         <button class="time" type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+      </div>
+      </header>
+ 
+      <section id="showcase">
+         <div class="container">
+            <h1>Register Now</h1>
+            <p>Please Register For Easy Access
+            </p>
+         </div>
+      
+      </section>
+      
+      <section id="login">
+         <div class="container">
+         <h1 ><a href="login.php">Already registered Login. Click to login....!</a></h1>
+         <form action="login.php" method="post">
+         
+         <button type="submit" class="button_1">Login</button>
+         </form>
+         </div>
+      </section>
+      <section id="main">
+         <div class="container">
+            <article id="main-col">
+               <h1 class="page-title">Register</h1>
+            <p><alert>For Family Members Only</alert> </p>
+            </article>
+            
+            <aside id="sidebar">
+            <div class="dark">
+            <h3>Complete Form to Register</h3>
+               <div id="content">
+<div id="contentright">
+  <form id="registerform" name="registerform" action="register.php" method="post">
+    <table width="100%" >
+      <tbody>
+        <tr>
+      <td>
+      First Name<br>
+      <input type=text name="FirstName"></td>
+        </tr>
+      <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Post    <select name="Post" >
+                  <option value="Father">Father</option>
+                  <option value="Mother">Mother</option>
+                  <option value="Son">Son </option>
+                  <option value="Daughter">Daughter</option>
+                  <option value="Inlaws">Inlwas</option>
+                  <option value="Midwife">Midwife</option>
+                  <option value="Others">Others</option>
+                  </select></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        
+      <br><br>
+      
+        <tr>
+          <td>Email<br><input type="email" name="Email">&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Password<br><input type="password" name="Password">&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Confirm Password<br><input type="password" name="ConfirmPassword">&nbsp;</td>
+        </tr>
+        <tr>
+          <td><input class="button_1" type="submit" value="Register">&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+</div>
+            </div>
+            </aside>
+         </div>
+      </section>
+      <footer class="main-footer">
+      <p> TJ Designs, copyright &copy;2018</p>
+      </footer>
+   
+   </body>
+</html>
